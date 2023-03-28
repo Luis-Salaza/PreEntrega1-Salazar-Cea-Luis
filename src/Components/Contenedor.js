@@ -3,10 +3,10 @@ import NavBar from './NavBar';
 import ItemListContainer from './ItemListContainer';
 
 
-function Contenedor (props){
+function Contenedor (){
     return ( 
     <div className="content">
-        <ItemListContainer Bienvenido="Bienvenido a Bioz Games" />
+        <ItemListContainer greeting="Bienvenido a Bioz Games" />
         <NavBar />
 
     </div>

@@ -1,9 +1,9 @@
 import './Css/TextStyle.css'
 
-const ItemListContainer = ({ Bienvenido }) => {
+const ItemListContainer = ({ greeting }) => {
     return (
         
-        <h1>{Bienvenido}</h1>
+        <h1>{greeting}</h1>
         
     )
 }
