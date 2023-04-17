@@ -1,3 +1,75 @@
+h3{
+  font-family: 'Roboto', sans-serif;
+  
+ 
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.CartWidget{
+  background-color: #86baeb;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  color: #333;
+  display: inline-block;
+  padding: 10px;
+  position: fixed;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar {
+    background-color: #90a3db;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #343a40;
+    font-weight: 500;
+    margin-right: 1rem;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .navbar-toggler {
+    border-color: transparent;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    transform: rotate(90deg);
+  }
+  
   .button-ps4 {
     background-color: #4d83c1;
     border-radius: 50px;

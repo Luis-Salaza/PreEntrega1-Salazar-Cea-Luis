@@ -1,0 +1,59 @@
+.cardItem{
+    display: inline-block;
+    background-color: #90a3db;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ItemHeader{
+    display: flex;
+    align-items: center;
+}
+
+.ItemImg{
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.ItemFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ItemBtn{
+    background-color: #b6528e;
+    border: oldlace;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.ItemInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
