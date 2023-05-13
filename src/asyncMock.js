@@ -1,3 +1,6 @@
+// este archivo se dejó exclusivamente para ver los datos especificos de la base de datos
+
+
 const productos = [
     {
         id : '1',

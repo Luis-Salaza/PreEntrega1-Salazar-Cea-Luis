@@ -1,16 +1,29 @@
-span{
-    color: #fff;
-}
+
 
 .carrito{
-    background-color: #fff;
-    border-radius: 4px;
+    background-color: #86baeb;
+    border-radius: 10px;
     border: 1px solid #ddd;
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
-    color: #333;
-    display: inline-block;
-    padding: 10px;
-    position: relative;
+    padding: 7px;
+    position: fixed;
+    margin-left: 10px;
 }
+.carrito span {
+    background-color: #b6528e;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 15px;
+}
+
+
 
 
